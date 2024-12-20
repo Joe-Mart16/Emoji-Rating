@@ -31,6 +31,7 @@ body {
 .fa-regular {
   margin: 1px;
   transform: translateX(0);
+  transition: transform 0.2s;
 }
 
 .rating-container {
@@ -42,4 +43,9 @@ body {
 
 .fa-solid {
   color: lightgray;
+  cursor: pointer;
+}
+
+.fa-solid.active {
+  color: gold;
 }
